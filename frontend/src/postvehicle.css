@@ -1,0 +1,46 @@
+.add-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.add-container h2 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+.add-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-container input,
+.add-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-container button {
+  padding: 10px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-container button:hover {
+  background: #1258a6;
+}
+
+.message {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
